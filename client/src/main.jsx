@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-p1hfcojayohgn3gf.us.auth0.com"
      clientId="jYuIB1Iw6fHskC5eFK0lIXJuI7VlDjub"
      authorizationParams={{
-      redirect_uri: "https://elite-the-real-estate-company-bice.vercel.app"
+      redirect_uri: "https://elite-the-real-estate-company-pi.vercel.app"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"
