@@ -7,8 +7,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-     domain="http://dev-iq6y3e70pjokpq1f.us.auth0.com"
-     clientId="BPpntyaOqSTwux1nD8fU7d2R5gUgagBb"
+     domain="dev-p1hfcojayohgn3gf.us.auth0.com"
+     clientId="jYuIB1Iw6fHskC5eFK0lIXJuI7VlDjub"
      authorizationParams={{
       redirect_uri: "https://elite-the-real-estate-company-bice.vercel.app"
      }}
