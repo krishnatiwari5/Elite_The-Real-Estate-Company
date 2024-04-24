@@ -13,6 +13,7 @@ import Property from "./pages/Property/Property";
 import UserDetailContext from "./context/UserDetailContext";
 import Bookings from "./pages/Bookings/Bookings";
 import Favourites from "./pages/Favourites/Favourites";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ function App() {
             <Routes>
               <Route element={<Layout />}>
                 <Route path="/" element={<Website />} />
+                <Route path="/aboutus" element={<AboutUs />} />
                 <Route path="/properties">
                   <Route index element={<Properties />} />
                   <Route path=":propertyId" element={<Property />} />
