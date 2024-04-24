@@ -11,16 +11,15 @@ const Hero = () => {
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1
-            initial={{ y: "2rem", opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              duration: 2,
-              type: "ease-in",
-            }}
+              initial={{ y: "2rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 2,
+                type: "ease-in",
+              }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Elite
+              <motion.p className="tag-p">The Real State Company</motion.p>
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
@@ -28,7 +27,7 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
-          <SearchBar/>
+          <SearchBar />
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
@@ -65,9 +64,22 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <img src="./house1.jpg" alt="a hot air balloon" />
+            <img src="./house2.jpg" alt="a sky photo of an old city" />
+            <img src="./house3.jpg" alt="a small boat" />
+            <img src="./house4.jpg" alt="a forest" />
           </motion.div>
         </div>
+      </div>
+      <div className="lasttag">
+      <motion.h1
+              initial={{ y: "2rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 2,
+                type: "ease-in",
+              }}
+            >Unlock : Your Dream Home Where Every Story Begins</motion.h1>
       </div>
     </section>
   );
