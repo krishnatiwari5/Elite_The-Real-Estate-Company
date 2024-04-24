@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 height: 100vh;
-background-image: url("./bg2.jpg");
+background-image: url("./bg3.jpg");
 background-position: center;
 }
 
@@ -48,7 +48,7 @@ text-align: right;
 
 
 .aboutImg {
-    background-image: url("./teamElite.jpg");
+    background-image: url("./teamEliteimg.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
